@@ -19,7 +19,6 @@ media_all_ids=[]
 likes = []
 users = []
 captions = []
-tags = []
 positive = 0
 negative = 0
 neutral = 0
@@ -39,7 +38,6 @@ for media_id in media_ids:
     users.append(media_id.user.id)
     media_all_ids.append(media_id.id)
     captions.append(media_id.caption.text)
-    tags.append(media_id.tags)
     post_likes = api.media_likes(media_id.id)
     likes.append(len(post_likes))
 
