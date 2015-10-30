@@ -12,7 +12,7 @@ import unicodedata
 client_id = 'YOUR CLIENT ID GOES HERE'
 client_secret = 'YOUR CLIENT SECRET GOES HERE'
 access_token = 'YOUR ACCESS TOKEN GOES HERE'
-client_ip = 'YOUR CLIENT\'S IP ADDRESS GOES HERE'
+client_ip = 'YOUR CLIENT\'s IP ADDRESS GOES HERE'
 api = InstagramAPI(client_id=client_id, client_secret=client_secret,client_ips= client_ip,access_token= access_token)
 
 media_all_ids=[]
